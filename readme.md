@@ -39,8 +39,6 @@ Fork the repository.
 Create a new branch for your changes.
 Make your changes and test them thoroughly.
 Submit a pull request.
-Credits
-The Quiz App was created by [Your Name Here].
 
 License
 The Quiz App is licensed under the MIT License.
