@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Top Scores</title>
+  </head>
+  <body>
+    <h1>Top Scores</h1>
+    <ol id="score-list"></ol>
+
+    <script>
+      const scoreList = document.getElementById("score-list");
+
+      const scores = JSON.parse(localStorage.getItem("scores")) || [];
+
+      scores.forEach((score) => {
+        const li = document.createElement("li");
+        li.innerText = `${score.initials}: ${score.score}`;
+        scoreList.appendChild(li);
+      });
+    </script>
+  </body>
+</html>

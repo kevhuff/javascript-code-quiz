@@ -1,0 +1,138 @@
+/* Set global styles */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c87c9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0d5c8c;
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #1c87c9;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /* Quiz specific styles */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #timer {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1c87c9;
+    margin-right: 10px;
+  }
+  
+  #question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #answer-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .answer-btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c87c9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .answer-btn:hover {
+    background-color: #0d5c8c;
+  }
+  
+  .answer-btn:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #1c87c9;
+  }
+  
+  .active {
+    background-color: #0d5c8c !important;
+  }
+  .wrong {
+    background-color: red;
+  }
+  .correct {
+    background-color: green;
+  }
