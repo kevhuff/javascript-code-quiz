@@ -23,10 +23,14 @@ The Quiz App is built using the following technologies:
 HTML
 CSS
 JavaScript
-jQuery
 Bootstrap
 Installation
 There is no installation required to use the Quiz App. Simply visit the application's homepage in your web browser to begin using it.
+
+Resources
+Part of this code was taken from WebDev Simplified. His tutorials are an amazing resource, and I've really enjoyed his content.
+Check out the video below for some of the steps taken and used in this Quiz. 
+https://youtu.be/riDzcEQbX6k
 
 Contributing
 If you would like to contribute to the Quiz App, please follow these steps:
